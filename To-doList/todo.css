@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+    line-height: 30px;
+    /* list-style-image: url(unchecked.png);
+    list-style-image: ; */
+}
+
+span {
+    float: right;
+}
+
+span :hover{
+    background-color: rgb(30, 32, 32);
+}
+
+li {
+    cursor: pointer;
+    background: url(unchecked.png) no-repeat;
+    padding-left: 40px;
+    background-size: 20px 20px;
+
+}
+li.clicked{
+    text-decoration: line-through;
+    background: url(checked.png) no-repeat;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#timeBox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    float: right;
+}
+
+#dateBox {
+    float: right;
+}
+
+.inputContainer{
+    display: grid;
+    place-items: center;
+}
