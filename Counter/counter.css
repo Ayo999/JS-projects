@@ -1,0 +1,15 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-right: 20px;
+}
