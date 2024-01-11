@@ -1,0 +1,12 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 10px;
+    background-color: rgb(13, 13, 41);
+    color: #fff;
+}
+
+h3, div{
+    display: flex;
+    justify-content: center;
+}
