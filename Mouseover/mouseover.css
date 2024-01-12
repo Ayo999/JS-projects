@@ -1,0 +1,14 @@
+body{
+    background-color: #00a2ff;
+}
+
+span{
+    border: 10px black solid;
+    border-radius: 100px;
+    position: absolute;
+}
+.circle{
+    top: 50%;
+    left: 50%;
+    border-color: white;
+}
